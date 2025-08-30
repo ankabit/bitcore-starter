@@ -1,0 +1,12 @@
+parameters:
+    level: 4
+    paths:
+        - src
+    ignoreErrors:
+        - '#Call to an undefined static method .*\\Models\\[a-zA-Z0-9_]+::[a-zA-Z0-9_]+\(\)#'
+    reportUnmatchedIgnoredErrors: false
+    excludePaths:
+        analyse:
+            - */vendor/*
+        analyseAndScan:
+            - vendor/*

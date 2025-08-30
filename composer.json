@@ -1,0 +1,63 @@
+{
+    "name": "ankabit/erp-api",
+    "description": "ERP API",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ankabit",
+            "email": "code@ankabit.com"
+        }
+    ],
+    "require": {
+        "ankabit/bitcore": "dev-main"
+    },
+    "require-dev": {
+        "jangregor/phpstan-prophecy": "^1.0.0",
+        "mockery/mockery": "^1.6",
+        "phpspec/prophecy-phpunit": "^2.0",
+        "phpstan/extension-installer": "^1.2.0",
+        "phpstan/phpstan": "^1.11",
+        "phpunit/phpunit": "^11.2.3",
+        "squizlabs/php_codesniffer": "^3.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        },
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\": "src/modules/"
+        },
+        "files": [
+            "src/config/autoload.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ankabit/bitcore"
+        }
+    ],
+    "scripts": {
+        "test": "phpunit --testdox --do-not-cache-result",
+        "debug": "phpstan",
+        "lint": "phpcbf && phpcs",
+        "post-install-cmd": [
+            "@php vendor/ankabit/bitcore/bin/bitcore modules:composer-install --modules-path=src/modules"
+        ],
+        "post-update-cmd": [
+            "@php vendor/ankabit/bitcore/bin/bitcore modules:composer-update  --modules-path=src/modules"
+        ],
+        "post-autoload-dump": [
+            "@php vendor/ankabit/bitcore/bin/bitcore modules:composer-dump-autoload  --modules-path=src/modules"
+        ]
+    }
+}

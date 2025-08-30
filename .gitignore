@@ -1,0 +1,27 @@
+.idea/
+/coverage/
+/vendor/
+/logs/*
+!/logs/README.md
+/cache/*
+!/cache/README.md
+.phpunit.cache/*
+.phpunit.result.cache
+.phpunit.cache/test-results
+.claude/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+.DS_Store
+.phpunit.result.cache
+.vue.alias.js
+.env
+.env.backup
+.env.test
+.env.production
+.env.local
