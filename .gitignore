@@ -9,6 +9,7 @@
 .phpunit.result.cache
 .phpunit.cache/test-results
 .claude/
+/src/modules/*/vendor/
 
 ### VisualStudioCode ###
 .vscode/*
