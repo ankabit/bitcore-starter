@@ -24,6 +24,6 @@ class WelcomeModuleActionTest extends TestCase
 
         // Assertions
         $this->assertEquals(200, $response->getStatusCode());
-        $this->assertStringContainsStringIgnoringCase('welcome', $payload);
+        $this->assertStringContainsStringIgnoringCase(trans('Welcome::messages.welcome'), $payload);
     }
 }

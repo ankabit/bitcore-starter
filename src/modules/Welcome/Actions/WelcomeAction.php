@@ -12,7 +12,7 @@ class WelcomeAction extends Action
     public function action(): ResponseInterface
     {
         return $this->respondWithData([
-            'message' => 'Welcome to BitCore'
+            'message' => trans('Welcome::messages.welcome')
         ]);
     }
 }

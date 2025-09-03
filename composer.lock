@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ankabit/bitcore.git",
-                "reference": "245c663cb1696d67fdb7b4168eb88b0035b76c3e"
+                "reference": "09cf0e9b548b15266b7706e580446e53930f70d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ankabit/bitcore/zipball/245c663cb1696d67fdb7b4168eb88b0035b76c3e",
-                "reference": "245c663cb1696d67fdb7b4168eb88b0035b76c3e",
+                "url": "https://api.github.com/repos/ankabit/bitcore/zipball/09cf0e9b548b15266b7706e580446e53930f70d7",
+                "reference": "09cf0e9b548b15266b7706e580446e53930f70d7",
                 "shasum": ""
             },
             "require": {
@@ -62,7 +62,7 @@
                     "php -S localhost:8080 -t public"
                 ],
                 "test": [
-                    "phpunit --testdox --do-not-cache-result"
+                    "phpunit --testdox --do-not-cache-result -d memory_limit=256M"
                 ],
                 "debug": [
                     "phpstan"
@@ -99,7 +99,7 @@
                 "source": "https://github.com/ankabit/bitcore/tree/main",
                 "issues": "https://github.com/ankabit/bitcore/issues"
             },
-            "time": "2025-08-30T21:52:36+00:00"
+            "time": "2025-09-03T11:28:02+00:00"
         },
         {
             "name": "aws/aws-crt-php",
@@ -157,16 +157,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.356.8",
+            "version": "3.356.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3efa8c62c11fedb17b90f60b2d3a9f815b406e63"
+                "reference": "42e1ac9cbb06b98ead34e32bd565f262161b77ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3efa8c62c11fedb17b90f60b2d3a9f815b406e63",
-                "reference": "3efa8c62c11fedb17b90f60b2d3a9f815b406e63",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/42e1ac9cbb06b98ead34e32bd565f262161b77ab",
+                "reference": "42e1ac9cbb06b98ead34e32bd565f262161b77ab",
                 "shasum": ""
             },
             "require": {
@@ -248,9 +248,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.356.8"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.356.9"
             },
-            "time": "2025-08-29T18:06:18+00:00"
+            "time": "2025-09-02T18:03:41+00:00"
         },
         {
             "name": "brick/math",
@@ -1004,7 +1004,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v11.45.2",
+            "version": "v11.45.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -1057,7 +1057,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v11.45.2",
+            "version": "v11.45.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -1113,7 +1113,7 @@
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v11.45.2",
+            "version": "v11.45.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -1159,7 +1159,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v11.45.2",
+            "version": "v11.45.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1210,7 +1210,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v11.45.2",
+            "version": "v11.45.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1258,7 +1258,7 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v11.45.2",
+            "version": "v11.45.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
@@ -1327,7 +1327,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v11.45.2",
+            "version": "v11.45.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -1382,7 +1382,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v11.45.2",
+            "version": "v11.45.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -1449,7 +1449,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v11.45.2",
+            "version": "v11.45.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -1495,7 +1495,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v11.45.2",
+            "version": "v11.45.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -1543,7 +1543,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v11.45.2",
+            "version": "v11.45.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -1620,7 +1620,7 @@
         },
         {
             "name": "illuminate/translation",
-            "version": "v11.45.2",
+            "version": "v11.45.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/translation.git",
@@ -1671,16 +1671,16 @@
         },
         {
             "name": "illuminate/validation",
-            "version": "v11.45.2",
+            "version": "v11.45.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/validation.git",
-                "reference": "3bbb80e7062c98d46ca5b8c9c6756e4b479f2f00"
+                "reference": "b28566552c0bfe2f6ae7405ff9f020b6e1c2f51f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/validation/zipball/3bbb80e7062c98d46ca5b8c9c6756e4b479f2f00",
-                "reference": "3bbb80e7062c98d46ca5b8c9c6756e4b479f2f00",
+                "url": "https://api.github.com/repos/illuminate/validation/zipball/b28566552c0bfe2f6ae7405ff9f020b6e1c2f51f",
+                "reference": "b28566552c0bfe2f6ae7405ff9f020b6e1c2f51f",
                 "shasum": ""
             },
             "require": {
@@ -1728,7 +1728,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-06-10T14:28:06+00:00"
+            "time": "2025-09-02T13:00:26+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -5910,16 +5910,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "11.5.35",
+            "version": "11.5.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "d341ee94ee5007b286fc7907b383aae6b5b3cc91"
+                "reference": "264a87c7ef68b1ab9af7172357740dc266df5957"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d341ee94ee5007b286fc7907b383aae6b5b3cc91",
-                "reference": "d341ee94ee5007b286fc7907b383aae6b5b3cc91",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/264a87c7ef68b1ab9af7172357740dc266df5957",
+                "reference": "264a87c7ef68b1ab9af7172357740dc266df5957",
                 "shasum": ""
             },
             "require": {
@@ -5991,7 +5991,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.35"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.36"
             },
             "funding": [
                 {
@@ -6015,7 +6015,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-08-28T05:13:54+00:00"
+            "time": "2025-09-03T06:24:17+00:00"
         },
         {
             "name": "sebastian/cli-parser",
