@@ -2,15 +2,21 @@
 
 A minimal starter template for building applications with the **BitCore PHP Framework**.
 
-## 📖 Documentation
-
-For complete setup instructions, tutorials, and guides, please visit:
-
-**👉 [BitCore Getting Started Guide](https://github.com/ankabit/bitcore/blob/main/docs/USING_AS_DEPENDENCY.md)**
-
 ## 🚀 Quick Start
 
 ```bash
+# Clone the starter template
+git clone https://github.com/ankabit/bitcore-starter.git my-bitcore-app
+
+# Navigate to your project
+cd my-bitcore-app
+
+# Remove the template's git history and initialize your own
+rm -rf .git
+git init
+git add .
+git commit -m "Initial commit: BitCore starter template"
+
 # Install dependencies
 composer install
 
@@ -20,6 +26,12 @@ cp .env.example .env
 # Start development server
 php -S localhost:8000 -t public/
 ```
+
+## 📖 Documentation
+
+For complete setup instructions, tutorials, and guides, please visit:
+
+**👉 [BitCore Getting Started Guide](https://github.com/ankabit/bitcore/blob/main/docs/USING_AS_DEPENDENCY.md)**
 
 ## 📚 Learn More
 
