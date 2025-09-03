@@ -2,6 +2,8 @@ parameters:
     level: 4
     paths:
         - src
+    bootstrapFiles:
+        - vendor/ankabit/bitcore/src/core/Application/Config/autoload.php
     ignoreErrors:
         - '#Call to an undefined static method .*\\Models\\[a-zA-Z0-9_]+::[a-zA-Z0-9_]+\(\)#'
     reportUnmatchedIgnoredErrors: false

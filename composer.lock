@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ankabit/bitcore.git",
-                "reference": "09cf0e9b548b15266b7706e580446e53930f70d7"
+                "reference": "3924723a96d040a548dd11dd746279c341928c25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ankabit/bitcore/zipball/09cf0e9b548b15266b7706e580446e53930f70d7",
-                "reference": "09cf0e9b548b15266b7706e580446e53930f70d7",
+                "url": "https://api.github.com/repos/ankabit/bitcore/zipball/3924723a96d040a548dd11dd746279c341928c25",
+                "reference": "3924723a96d040a548dd11dd746279c341928c25",
                 "shasum": ""
             },
             "require": {
@@ -99,7 +99,7 @@
                 "source": "https://github.com/ankabit/bitcore/tree/main",
                 "issues": "https://github.com/ankabit/bitcore/issues"
             },
-            "time": "2025-09-03T11:28:02+00:00"
+            "time": "2025-09-03T13:36:32+00:00"
         },
         {
             "name": "aws/aws-crt-php",
