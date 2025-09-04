@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ankabit/bitcore.git",
-                "reference": "3924723a96d040a548dd11dd746279c341928c25"
+                "reference": "e31adb016092f78ca05fcd45a6706d75271bf681"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ankabit/bitcore/zipball/3924723a96d040a548dd11dd746279c341928c25",
-                "reference": "3924723a96d040a548dd11dd746279c341928c25",
+                "url": "https://api.github.com/repos/ankabit/bitcore/zipball/e31adb016092f78ca05fcd45a6706d75271bf681",
+                "reference": "e31adb016092f78ca05fcd45a6706d75271bf681",
                 "shasum": ""
             },
             "require": {
@@ -99,7 +99,7 @@
                 "source": "https://github.com/ankabit/bitcore/tree/main",
                 "issues": "https://github.com/ankabit/bitcore/issues"
             },
-            "time": "2025-09-03T13:36:32+00:00"
+            "time": "2025-09-04T10:45:01+00:00"
         },
         {
             "name": "aws/aws-crt-php",
@@ -157,16 +157,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.356.9",
+            "version": "3.356.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "42e1ac9cbb06b98ead34e32bd565f262161b77ab"
+                "reference": "646530c3dcd5cbf485d5c608787e7e83d6e53c3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/42e1ac9cbb06b98ead34e32bd565f262161b77ab",
-                "reference": "42e1ac9cbb06b98ead34e32bd565f262161b77ab",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/646530c3dcd5cbf485d5c608787e7e83d6e53c3c",
+                "reference": "646530c3dcd5cbf485d5c608787e7e83d6e53c3c",
                 "shasum": ""
             },
             "require": {
@@ -248,9 +248,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.356.9"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.356.10"
             },
-            "time": "2025-09-02T18:03:41+00:00"
+            "time": "2025-09-03T18:08:55+00:00"
         },
         {
             "name": "brick/math",
