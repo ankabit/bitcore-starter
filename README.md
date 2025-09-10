@@ -24,7 +24,7 @@ composer install
 cp .env.example .env
 
 # Start development server
-php -S localhost:8000 -t public/
+php -S localhost:8080 -t public/
 ```
 
 ## 📖 Documentation
