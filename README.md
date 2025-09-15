@@ -26,7 +26,6 @@ cp .env.example .env
 # Start development server
 php -S localhost:8080 -t public/
 ```
-
 ## 📖 Documentation
 
 For complete setup instructions, tutorials, and guides, please visit:
