@@ -47,7 +47,11 @@
         }
     ],
     "scripts": {
+<<<<<<< HEAD
         "start": "php -S localhost:8080 -t public/",
+=======
+        "start": "php -S localhost:8080 -t public",
+>>>>>>> newSuggestions
         "test": "phpunit --testdox --do-not-cache-result",
         "debug": "phpstan",
         "lint": "phpcbf && phpcs",
