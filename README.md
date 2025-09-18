@@ -26,7 +26,7 @@ cp .env.example .env
 # Start development server
 php -S localhost:8080 -t public/
 
-then, visit http://localhost:8080/health to view your application!
+then, visit "http://localhost:8080/health" to view your application!
 
 Run migartion
 # This will run core migrations and any module migrations
