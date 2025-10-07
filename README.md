@@ -24,9 +24,15 @@ composer install
 cp .env.example .env
 
 # Start development server
-php -S localhost:8000 -t public/
-```
+php -S localhost:8080 -t public/
 
+then, visit "http://localhost:8080/health" to view your application!
+
+Run migartion
+# This will run core migrations and any module migrations
+# In the browser run.
+   http://localhost:8080/install
+```
 ## 📖 Documentation
 
 For complete setup instructions, tutorials, and guides, please visit:
